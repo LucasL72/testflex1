@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.ulnavbar{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: green;
+}
+.linavbar{
+    float:left;
+}
+.linavbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.linavbar a:hover {
+    background-color: #111;
+  }
+.justify-spacearound {
+    display: flex;
+    justify-content: space-around;
+}
+.justify-spacebetween{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    max-width: 100%;
+    height: 380px;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.btn {
+    border-radius: 50px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    outline-style: ridge;
+    background-color: darkgray;
+    max-width: 100%;
+}
+
+h2 {
+    color: cadetblue;
+    text-align: center;
+}
+
+h3 {
+    color: darkgreen;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media (max-width: 1250px) {  
+    .background {
+        height:180px;}
+    
+    body{
+        width: 100%;  
+        }
+    .flex1{
+        width: 100%;
+    }
+}
+
+
+
+
+ 

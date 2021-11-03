@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleflex.css">
+
+</head>
+
+<body>
+    <ul class="ulnavbar">
+        <li class="linavbar"><a href="#default.asp">Home</a></li>
+        <li class="linavbar"><a href="#news.asp">News</a></li>
+        <li class="linavbar"><a href="#contact.asp">Contact</a></li>
+        <li class="linavbar"style="float:right"><a href="#about">About</a></li>
+    </ul>
+
+    <div class="background">
+        <button class="bg-green btn">Cliquez Ici</button>
+        <button class="bg-blue btn">Cliquez Ici</button>
+    </div>
+
+    <div class="container">
+        <h2>Titre</h2>
+        <ul class="justify-spacebetween">
+            <li class="flex1">
+                <h3>Sous Titre</h3>
+                <img src="paysage1.jpg" alt="paysage" style="width:100%">
+                <p>Ceci est une description d'un paysage</p>
+            </li>
+            <li class="flex1">
+                <h3> Sous Titre</h3>
+                <img src="paysage2.jpg" alt="paysage" style="width: 100%;">
+                <p>Ceci est une description d'un paysage</p>
+            </li>
+            <li class="flex1">
+                <h3>Sous Titre</h3>
+                <img src="paysage3.jpg" alt="paysage" style="width:100%">
+                <p>Ceci est une description d'un paysage</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h4>Formulaire</h4>
+        <form action="/action_page.php" class="col">
+
+            <div class="row">
+                <div class="col">
+                    <label for="Email">Email:</label>
+                    <input type="text" id="Email" name="Email">
+                </div>
+                <div class="col container">
+                    <label for="lname">Nom:</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+            </div>
+
+            <label for="Sujet">Sujet:</label>
+            <input type="text" id="sujet" name="Sujet">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" cols="33"></textarea>
+
+            <div class="btn"><input type="Submit" value="Submit"></div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
